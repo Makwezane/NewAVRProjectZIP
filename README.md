@@ -18,3 +18,6 @@ If you have a 'library' of .c and .h files, read the comment at the top of the M
 
 I suppose this could be used for any other type of development but the Makefile is specific to AVR's.
 
+
+## _VERSION_
+Updated 31/10/2022 - fixed error in hex target for flashing. It was not looking for .hex in /hex folder and was also expecting main.hex instead of $(PROJECTNAME) - Verified working.
